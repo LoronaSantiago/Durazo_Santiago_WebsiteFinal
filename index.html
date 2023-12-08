@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama Website</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/awg6gvy.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="mobile-menu" style="display: none;">
+        <div id="close-menu">X</div>
+        <p><a href="https://www.kasamachicago.com/menus">MENU</a></p>
+        <p><a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue">ORDER</a></p>
+        <p><a href="https://www.kasamachicago.com/reservations-dinner">RESERVE</a></p>
+        <p><a href="https://www.kasamachicago.com/general">CONTACT</a></p>
+        <p><a href="https://www.kasamachicago.com/">ABOUT</a></p>
+    </div>
+    <header class="grid-container-nav header nav">
+        <img src="Images/Kasama Logo.png" alt="Kasama Logo" width="75" class="remove-img nav-kasama-logo">
+        <nav class="nav-font-variation-medium">
+            <a href="https://www.kasamachicago.com/menus" class="nav-link">MENU</a>
+            <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue" class="nav-link">ORDER</a>
+            <a href="https://www.kasamachicago.com/reservations-dinner" class="nav-link">RESERVE</a>
+            <a href="https://www.kasamachicago.com/general" class="nav-link">CONTACT</a>
+            <a href="https://www.kasamachicago.com/" class="nav-link">ABOUT</a>
+            <button id="hamburger"><span class="material-symbols-rounded hamburger">
+                menu
+                </span></button>
+        </nav>
+        <div>
+        <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue" class="order-button nav-font-variation-medium">ORDER NOW</a>
+        </div>
+    </header>
+    <section class="grid-container-hero">
+        <img src="Images/Founders.jpg" alt="Founders Image Here" class="grid-container-hero-image">
+        <p class="body-text">Kasama, located in Chicago's East Ukrainian Village, is a culinary dream <br>
+            created by chefs Genie Kwon and Timothy Flores. The artisanal bakery <br>
+            offers a variety of freshly baked bread and pastries, while the restaurant <br>
+            menu features innovative Filipino dishes. The warm ambiance and diverse <br>
+            menu tell a story of culinary excellence, with classics with a contemporary <br>
+            twist and new creations. Kasama eagerly awaits your visit and welcomes <br>
+            you on a memorable gastronomic journey.</p>
+    </section>
+    <section class="image-container">
+        <img src="Images/Reservation Background.jpg" alt="Background Image" width="100%" class="remove-img">
+        <button class="reservation-button font-variation-bold">
+            <a href="https://www.kasamachicago.com/reservations-dinner">MAKE RESERVATION</a>
+        </button>
+    </section>
+    <section>
+        <h2 class="font-variation-main-bold">BRUNCH MENU ITEMS</h2>
+        <div class="grid-container-menu-items image-text font-variation-medium">
+            <div class="menu-item">
+                <img src="Images/Chicken Adobo.jpg" alt="Chicken Adobe Image" width="352px">
+                <p>Chicken Adobo</p>
+            </div>
+            <div class="menu-item">
+                <img src="Images/Kasama Combo Sandwich.jpg" alt="Kasama Sandwich Image" width="352px">
+                <p>Kasama Combo Sandwich</p>
+            </div>
+            <div class="menu-item">
+                <img src="Images/Filipino Breakfast.jpg" alt="Filipino Breakfast Image" width="352px">
+                <p>Filipino Breakfast</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="https://www.kasamachicago.com/menus" class="see-more-button font-variation-medium">SEE MORE</a>
+        </div>
+    </section>
+    <section>
+        <h2 class="font-variation-main-bold">DINNER MENU ITEMS</h2>
+        <div class="grid-container-menu-items image-text font-variation-medium">
+            <div class="menu-item">
+                <img src="Images/Lumpia Shanghai.jpg" alt="Lumpia Shanghai Image" width="352px">
+                <p>Lumpia Shanghai</p>
+            </div>
+            <div class="menu-item">
+                <img src="Images/Mushroom Adobo.jpg" alt="Mushroom Adobo Image" width="352px">
+                <p>Mushroom Adobo</p>
+            </div>
+            <div class="menu-item">
+                <img src="Images/Pork Belly Adobo.jpg" alt="Pork Belly Image" width="352px">
+                <p>Pork Belly Adobo</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="https://www.kasamachicago.com/menus" class="see-more-button font-variation-medium">SEE MORE</a>
+        </div>
+    </section>
+    <section>
+        <div class="text-color">
+            <div class="chicago">
+                <img src="Images/Chicago.jpg" alt="Image of Chicago" class="chicago-iamge">
+                <div class="chicago-text">
+                    <h2 class="no-bottom-margin chicago-sub-text">LOCATION</h2>
+                    <p class="chicago-text-no-margin">1001 N Winchester Ave,<br>
+                        Chicago, Illinois<br>
+                        60622</p>
+                    <h2 class="no-bottom-margin chicago-sub-text">HOURS</h2>
+                    <p class="chicago-text-no-margin">Daytime Service</p>
+                    <p>Wednesday - Sunday<br>
+                        9am - 3pm</p>
+                    <p>*Kitchen and dining room close at 2pm* <br> 
+                        Pastries and drinks available for carryout <br> 
+                        only 2pm - 3pm</p>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section>
+        <footer class="footer centered-content display-grid">
+            <div class="left-footer">
+                <img src="Images/Kasama Logo.png" class="kasama-logo remove-img">
+            </div>
+            <div class="footer no-margin">
+                <h2 class="font-variation-bold text-margin">CONTACT US</h2>
+                <p class="no-margin text-margin font-variation-book">info@kasamachicago.com</p>
+                <p class="no-margin small-margin font-variation-book">(773) 697-3790</p>
+                <span><a class="social-icon-facebook" href="https://www.facebook.com/kasamachicago/">
+                    <img src="Images/Facebook Logo.png" class="remove-img">
+                </a>
+                <a class="social-icon-instagram" href="https://www.instagram.com/kasamachicago/">
+                    <img src="Images/Instagram Logo.png" class="remove-img">
+                </a>
+                </span>
+            </div>
+        </footer>        
+    </section>
+    <script src="javascript/index.js"></script>
+</body>
 </html>
